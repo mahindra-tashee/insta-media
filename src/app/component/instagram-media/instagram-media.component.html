@@ -1,0 +1,19 @@
+<body>
+    <header class="header">
+      <h1 class="heading">
+        <span class="head-text">Your Instagram Content</span>
+    </h1>
+      <p class="body-text">
+        Explore and Share Your Instagram Content
+      </p>
+    </header>
+<div class="masonry">
+    <div class="mItem" *ngFor="let imageUrl of userPosts">
+      <img [src]="imageUrl">
+    </div>
+</div>
+<footer class="footer">
+    <p class="footer-text">Created by mahindra_bhagat</p>
+  </footer>
+
+</body>
